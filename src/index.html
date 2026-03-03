@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./output.css" />
     <link rel="icon" href="../favicon.ico" />
     <script src="../js/theme-init.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
   </head>
   <body>
     <header class="py-7 fixed shadow-md w-full z-50">
@@ -78,16 +82,299 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="py-12 mb:py-20">
       <div class="container">
         <!--title-->
-        <div>
+        <div class="text-center mb-12">
           <h2 class="title">Our Web Services</h2>
-          <p></p>
+          <p>Professional solutions tailored to boost your online presence</p>
+        </div>
+        <div>
+          <!--wrapper-->
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <!--card 1-->
+            <div class="card">
+              <img
+                src="../images/card-icon-web-development.webp"
+                alt="web development"
+              />
+              <h3>Web Development</h3>
+              <p>
+                Custom websites built with modern frameworks like Next.js and
+                React for optimal performance.
+              </p>
+              <a href="#">View Packages &rarr;</a>
+            </div>
+
+            <div>
+              <!--card 2-->
+              <div class="card">
+                <img src="../images/card-icon-ui-ux-design.webp" alt="" />
+                <h3>UI/UX Design</h3>
+                <p>
+                  Beautiful interfaces designed to convert visitors with
+                  strategic user experience flows.
+                </p>
+                <a href="#">See Portfolio &rarr;</a>
+              </div>
+            </div>
+            <div>
+              <!--card 3-->
+              <div class="card">
+                <img
+                  src="../images/card-icon-seo-optimization.webp"
+                  alt="seo optimization"
+                />
+                <h3>Seo Optimization</h3>
+                <p>
+                  Increase your visibility on search engines with our
+                  data-driven SEO strategies.
+                </p>
+                <a href="#">Get Audit &rarr;</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <section id="about" class="py-12">
+      <div class="container">
+        <!--wrapper-->
+        <div class="grid grid-cols-1 gap-12 items-center lg:grid-cols-2">
+          <img
+            class="rounded-xl shadow-md object-cover"
+            src="../images/about-home.webp"
+            alt="2 people working together"
+          />
+          <!--details-->
+          <div>
+            <h2 class="title">About Our Company</h2>
+            <p class="mb-6">
+              Founded in 2025, we help businesses transform their ideas into
+              reality through cutting- edge technology and expert consulting
+              services. Our team of 50+ professionals delivers measurable
+              results.
+            </p>
+            <ul>
+              <!--1-->
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#2563eb"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-check-icon lucide-check"
+                >
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <p>10+ years combined industry experience</p>
+              </li>
+              <!--2-->
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#2563eb"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-check-icon lucide-check"
+                >
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <p>50+ successful projects delivered</p>
+              </li>
+              <!--3-->
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#2563eb"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-check-icon lucide-check"
+                >
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <p>Client-focused approach with 24/7 support</p>
+              </li>
+            </ul>
+            <a href="#" class="btn btn--blue">Learn more About Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-20">
+      <div class="container">
+        <h2 class="title text-center">Client Testimonials</h2>
+        <!--wrapper-->
+        <div class="max-w-3xl mx-auto">
+          <div class="testimonialSlider">
+            <!--1-->
+            <div class="testimonialItem">
+              <img src="../images/testimonials-1.webp" alt="Sarah Johnson" />
+              <p>
+                "The team delivered our project ahead of schedule with
+                exceptional quality. Our online sales increased by 120% within
+                three months!"
+              </p>
+              <h6>Sarah Johnson</h6>
+              <small>Marketing Director, TechCorp</small>
+            </div>
+            <!--2-->
+            <div class="testimonialItem">
+              <img src="../images/testimonials-2.webp" alt="Michael Chen" />
+              <p>
+                "From design to deployment, their attention to detail was
+                impressive. They became true partners in our digital
+                transformation journey."
+              </p>
+              <h6>Michael Chen</h6>
+              <small>CEO, StartupHub</small>
+            </div>
+            <!--3-->
+            <div class="testimonialItem">
+              <img src="../images/testimonials-3.webp" alt="Emma Rodriguez" />
+              <p>
+                "Their SEO strategy tripled our organic traffic in 6 months.
+                We've seen a dramatic improvement in lead quality and conversion
+                rates."
+              </p>
+              <h6>Emma Rodriguez</h6>
+              <small>CMO, GrowthSolutions</small>
+            </div>
+          </div>
+
+          <!--controls-->
+          <div id="controls" class="relative">
+            <a class="prev">
+              <div class="absolute bottom-40 -left-5 -translate-y-1/2 z-30">
+                <button
+                  class="shadow-md size-10 rounded-full bg-white text-black/90 text-2xl cursor-pointer flex items-center justify-center"
+                >
+                  &lt;
+                </button>
+              </div>
+            </a>
+            <a class="next">
+              <div class="absolute bottom-40 -right-5 -translate-y-1/2 z-30">
+                <button
+                  class="shadow-md size-10 rounded-full bg-white text-black/90 text-2xl cursor-pointer flex items-center justify-center"
+                >
+                  &gt;
+                </button>
+              </div>
+            </a>
+            <div class="tns-nav"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="title">Events</h2>
+        <!--links-->
+        <div>
+          <h6 class="eventTab" id="tabs-1">Upcoming</h6>
+          <h6 class="eventTab" id="tabs-2">Past</h6>
+          <h6 class="eventTab" id="tabs-3">Features</h6>
+        </div>
+        <!--content-->
+        <div>
+          <!--item1-->
+          <div class="eventItem" id="tabs-1-detail">
+            <div class="eventItemWrap">
+              <!--1-->
+              <div class="eventCard">
+                <h5>Digital Transformation Webinar – March 15, 2026</h5>
+                <p>
+                  Learn the latest strategies in digital transformation for
+                  businesses of all sizes.
+                </p>
+              </div>
+              <!--2-->
+              <div class="eventCard">
+                <h5>UI/UX Workshop – April 10, 2026</h5>
+                <p>
+                  Hands-on session for creating user-friendly web interfaces.
+                </p>
+              </div>
+              <!--3-->
+              <div class="eventCard">
+                <h5>SEO Strategy Bootcamp – May 5, 2026</h5>
+                <p>
+                  Master the latest SEO techniques to boost online visibility.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--item2-->
+          <div class="eventItem" id="tabs-2-detail">
+            <div class="eventItemWrap">
+              <!--1-->
+              <div class="eventCard">
+                <h5>StartupHub Launch Event – Jan 2026</h5>
+                <p>
+                  Showcased our latest project success stories with livedemos.
+                </p>
+              </div>
+              <!--2-->
+              <div class="eventCard">
+                <h5>TechCorp Annual Meetup – Feb 2026</h5>
+                <p>
+                  Shared insights on web development and marketing strategies.
+                </p>
+              </div>
+              <!--3-->
+              <div class="eventCard">
+                <h5>SEO Optimization Seminar – Dec 2025</h5>
+                <p>
+                  Educational session on improving search engine performance.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--item3-->
+          <div class="eventItem" id="tabs-3-detail">
+            <div class="eventItemWrap">
+              <!--1-->
+              <div class="eventCard">
+                <h5>AI-Powered Analytics Webinar – March 2026</h5>
+                <p>
+                  Exclusive session on integrating AI into business analytics.
+                </p>
+              </div>
+              <!--2-->
+              <div class="eventCard">
+                <h5>Client Success Spotlight – Jan 2026</h5>
+                <p>
+                  Celebrating our clients’ digital achievements with interactive
+                  demos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="../js/slider.js"></script>
     <script src="../js/toggle-menu.js"></script>
     <script src="../js/mode.js"></script>
   </body>
